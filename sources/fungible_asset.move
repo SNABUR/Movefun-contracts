@@ -2,7 +2,7 @@ module pump::Liquid_Staking_Token {
     use std::vector;
     use std::option;
     use std::string::{Self, String};
-    use aptos_framework::fungible_asset::{
+    use supra_framework::fungible_asset::{
         Self,
         MintRef,
         TransferRef,
